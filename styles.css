@@ -1,0 +1,67 @@
+body {
+    font-family: 'Helvetica Neue', 'Roboto', 'Verdana', sans-serif;
+      color: #2a2a2a;
+      background-color: #fafafa;
+      margin: 10px;
+  }
+  
+  h1, h2, h3, h4, h5, h6, p {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+ul, ol {
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-left: 0;
+}
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+  /* Загальні стилі для навігації */
+nav {
+    background-color: #f8f9fa; /* Колір фону навігації */
+    border: 1px solid #ddd; /* Границя навігації */
+    border-radius: 20px; /* Скруглення кутів */
+    padding: 10px 20px; /* Відступи всередині навігації */
+    min-width: 320px;
+    margin: 0 auto; /* Вирівнювання по центру */
+}
+
+/* Стилі для списку навігації */
+nav ul {
+    list-style: none; /* Видалення маркерів списку */
+    padding: 0; /* Видалення відступів всередині списку */
+    margin: 0; /* Видалення зовнішніх відступів */
+    display: flex;
+    gap: 10px; /* Вирівнювання елементів списку в рядок */
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+/* Стилі для елементів списку */
+nav ul li {
+    margin: 5px; /* Зовнішні відступи між елементами списку */
+}
+
+/* Стилі для посилань */
+nav ul li a {
+    text-decoration: none; /* Видалення підкреслення тексту */
+    color: #007bff; /* Колір тексту посилань */
+ 
+    border: 1px solid transparent; /* Границя, що зникає */
+    border-radius: 5px; /* Скруглення кутів */
+    transition: all 0.3s ease; /* Плавний перехід для всіх властивостей */
+}
+
+/* Стилі для посилань при наведенні */
+nav ul li a:hover {
+    background-color: #007bff; /* Колір фону при наведенні */
+    color: #fff; /* Колір тексту при наведенні */
+    border-color: #007bff; /* Колір границі при наведенні */
+}
+Цей CSS код надасть вашій навігації сучасний вигляд із плавними переходами при наведенні курсора на посилання. Ви можете змінити кольори та відступи відповідно до ваших вподобань та стилю вашого вебсайту.
